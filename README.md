@@ -1,143 +1,203 @@
-# 🧮 Math Club Quiz Practice- PreAlgebra
+# Math Club Quiz Practice App 🧮
 
-An interactive pre-algebra quiz app for Grade 7 students preparing for math club competitions.
+A comprehensive pre-algebra quiz application designed for 7th grade Math Club preparation. Features 90 challenging problems across 6 categories, all harder than standard worksheets to ensure thorough preparation.
 
-## 📚 What's This?
+## Features
 
-A browser-based practice quiz with 200 pre-generated multiple-choice problems covering essential pre-algebra topics. Perfect for math club preparation!
+### 📚 Six Practice Categories
+1. **Multi-Step Equations** (15 problems)
+   - Distribution and combining like terms
+   - Variables on both sides
+   - Complex solving strategies
+   - Example: `5(x + 3) - 2(x - 1) = 29`
 
-## ✨ Features
+2. **Fractions & Rationals** (15 problems)
+   - Adding/subtracting with different denominators
+   - Multiplying and dividing fractions
+   - Solving equations with fractions
+   - Example: `(3x - 6)/4 = 6`
 
-- **200 Unique Problems** - Fresh practice every time
-- **25 Questions Per Quiz** - Matches real quiz format
-- **Instant Feedback** - Know right away if you're correct
-- **Step-by-Step Solutions** - Learn from every mistake
-- **Progress Tracking** - See your score and accuracy
-- **No Installation** - Just open and start practicing
-- **Works Offline** - Practice anywhere, even without internet
+3. **Order of Operations** (15 problems)
+   - Complex nested operations
+   - Parentheses, exponents, multiplication, division, addition, subtraction
+   - Multiple operation types in one problem
+   - Example: `4(6+2) - 3(5-1)`
 
-## 📖 Topics Covered
+4. **Integer Operations** (15 problems)
+   - Multiple operations with negative numbers
+   - Mixed positive and negative integers
+   - Division and multiplication of integers
+   - Example: `-12 + 8 - 15 + 20`
 
-1. **Solving Simple Equations** (30 problems)
-   - One-step and two-step equations
-   - Variables on one side
+5. **Absolute Value** (15 problems)
+   - Absolute value with arithmetic operations
+   - Combined expressions
+   - Multi-step calculations
+   - Example: `|-15| + |-8| - 12`
 
-2. **Order of Operations** (25 problems)
-   - PEMDAS/BODMAS
-   - Parentheses, multiplication, division, addition, subtraction
+6. **Word Problems** (15 problems)
+   - Multi-step real-world scenarios
+   - Algebraic problem setup required
+   - Consecutive integers, perimeter, area, percentages
+   - Example: "A number is tripled, then 18 is subtracted, giving 39. Find the number."
 
-3. **Integer Operations** (30 problems)
-   - Adding and subtracting negative numbers
-   - Multiplying and dividing with negatives
+### ✨ Key Features
+- **Category Selection**: Focus practice on specific weak areas or mix all categories
+- **Instant Feedback**: Immediate correct/incorrect with detailed step-by-step solutions
+- **Progress Tracking**: Visual progress bar and question counter
+- **Score Summary**: Final results with percentage, accuracy, and performance message
+- **Unlimited Practice**: Retake quizzes as many times as needed
+- **Mobile Friendly**: Works on desktop, tablet, and phone
+- **Offline Capable**: Once loaded, works without internet connection
+- **No Installation**: Just open the HTML file in any browser
 
-4. **Absolute Value** (20 problems)
-   - Understanding |x|
-   - Operations with absolute values
+## How to Use
 
-5. **Evaluating Expressions** (25 problems)
-   - Substituting values for variables
-   - Calculating with given numbers
+### Option 1: Direct Use (Easiest)
+1. Download the `math-club-quiz.html` file
+2. Double-click to open in your web browser
+3. Bookmark the page for easy access
+4. Start practicing!
 
-6. **Exponents** (20 problems)
-   - Powers and squared numbers
-   - Basic exponent rules
+### Option 2: Share via Cloud Storage
+1. Upload `math-club-quiz.html` to Google Drive or Dropbox
+2. Set sharing to "Anyone with the link can view"
+3. Share the link with your student
+4. They can access from any device
 
-7. **Word Problems** (30 problems)
-   - Real-world applications
-   - Multi-step reasoning
+### Option 3: Host Online (Permanent URL)
+**Using Netlify (Recommended - Free & Easy):**
+1. Go to [netlify.com/drop](https://netlify.com/drop)
+2. Drag and drop `math-club-quiz.html`
+3. Get a permanent URL like `your-quiz.netlify.app`
+4. Share this URL - works forever on any device
 
-## 🚀 How to Use
+**Using GitHub Pages (Free):**
+1. Create a GitHub account at [github.com](https://github.com)
+2. Create a new repository (e.g., "math-quiz")
+3. Upload the file and rename it to `index.html`
+4. Enable GitHub Pages in Settings → Pages
+5. Your URL: `https://your-username.github.io/math-quiz/`
 
-### Online
-Visit: **[Your GitHub Pages URL will go here]**
+## Quiz Flow
 
-### Offline
-1. Download `index.html`
-2. Double-click to open in any browser
-3. Start practicing!
+```
+Start Screen
+    ↓
+Category Selection
+    ↓
+Choose: All Categories OR Specific Category
+    ↓
+Quiz (15-25 questions depending on selection)
+    ↓
+Results Screen
+    ↓
+Practice Another Category OR Return Home
+```
 
-## 🎯 How It Works
+## Problem Difficulty
 
-1. Click **"Start Quiz"** to begin
-2. Answer 25 randomly selected questions
-3. Get instant feedback on each answer
-4. Review solutions for incorrect answers
-5. See your final score and accuracy
-6. Take unlimited quizzes with different problems each time
+All problems are designed to be **harder than standard worksheets** to ensure students are well-prepared:
 
-## 📱 Device Compatibility
+- ✅ More complex than typical homework
+- ✅ Multi-step reasoning required
+- ✅ Combines multiple concepts
+- ✅ Requires careful attention to detail
+- ✅ Mirrors competitive math club difficulty
 
-Works on:
-- ✅ Desktop computers (Windows, Mac, Linux)
-- ✅ Tablets (iPad, Android)
-- ✅ Smartphones (iPhone, Android)
-- ✅ Chromebooks
-- ✅ Any device with a modern web browser
+## Technical Details
 
-## 🔒 Privacy & Data
+### Requirements
+- Any modern web browser (Chrome, Firefox, Safari, Edge)
+- No internet required after first load
+- No installation needed
+- Works on all devices (desktop, tablet, mobile)
 
-- No login required
-- No data collected
-- No tracking or analytics
-- Works completely offline after first load
-- All problems and solutions stored locally in the file
+### File Information
+- **File Type**: Single HTML file
+- **Size**: ~100KB
+- **Dependencies**: None (completely self-contained)
+- **Storage**: All problems embedded in the file
 
-## 🛠️ Technical Details
+### Browser Compatibility
+- ✅ Chrome 90+
+- ✅ Firefox 88+
+- ✅ Safari 14+
+- ✅ Edge 90+
+- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
-- **Technology**: Pure HTML, CSS, and JavaScript
-- **File Size**: ~50KB
-- **Dependencies**: None
-- **Browser Requirements**: Any modern browser (Chrome, Firefox, Safari, Edge)
-- **Internet Required**: Only for initial load (then works offline)
+## Privacy & Data
 
-## 📊 Problem Distribution
+- ✅ **No data collection**: Nothing is tracked or sent to any server
+- ✅ **No login required**: Anonymous use
+- ✅ **No cookies**: Completely private
+- ✅ **Offline capable**: Works without internet after first load
+- ✅ **Local only**: All data stays on your device
+- ✅ **No Claude usage**: All problems pre-generated, no API calls
 
-| Topic | Number of Problems |
-|-------|-------------------|
-| Solving Equations | 30 |
-| Order of Operations | 25 |
-| Integer Operations | 30 |
-| Absolute Value | 20 |
-| Evaluating Expressions | 25 |
-| Exponents | 20 |
-| Word Problems | 30 |
-| **Total** | **200** |
+## Tips for Effective Practice
 
-## 🎓 For Parents & Teachers
+1. **Start with weaker categories** - Focus on areas that need improvement
+2. **Review solutions carefully** - Learn from mistakes, don't just check answers
+3. **Practice regularly** - 15 minutes daily is better than 2 hours once a week
+4. **Use "All Categories"** - Once comfortable with individual topics, mix them
+5. **Aim for 80%+** - If scoring below 80%, review that category's concepts
+6. **Time yourself** - Math club quizzes are often timed; practice under time pressure
 
-This quiz app is designed to:
-- Build confidence through repetitive practice
-- Provide immediate feedback for faster learning
-- Explain solution steps to reinforce understanding
-- Track performance to identify weak areas
-- Make practice convenient and accessible
+## Troubleshooting
 
-Each quiz randomly selects 25 problems from the 200-problem bank, ensuring fresh practice sessions every time.
+**Quiz won't load:**
+- Make sure you're opening the file in a browser, not a text editor
+- Try a different browser
+- Re-download the file if it appears corrupted
 
-## 💡 Study Tips
+**Can't select a category:**
+- Click directly on the category card (not just hover)
+- The selected card should turn purple
+- "Start Quiz" button should activate
 
-1. **Take multiple quizzes** - The more you practice, the better you'll get
-2. **Review wrong answers** - Read the solutions carefully
-3. **Track your progress** - Try to improve your score each time
-4. **Focus on weak topics** - Notice which types you miss most
-5. **Time yourself** - Practice working quickly for competition day
+**Want to reset progress:**
+- Simply refresh the page (F5 or Ctrl+R)
+- Or click "Back to Home" in results screen
 
-## 🤝 Contributing
+## Updates & Versions
 
-This is a personal practice tool, but if you'd like to suggest improvements:
-- Report issues or bugs
-- Suggest additional problem types
-- Share feedback on problem difficulty
+**Current Version: 2.0** (Latest)
+- ✅ Added category selection feature
+- ✅ Upgraded all problems to harder difficulty
+- ✅ Total: 90 verified challenging problems
+- ✅ Improved mobile responsiveness
+- ✅ Added detailed step-by-step solutions
+- ✅ Category-focused practice mode
 
-## 📄 License
+**Version 1.0** (Previous)
+- 200 basic problems
+- Single quiz mode
+- All categories mixed
 
-Free to use for personal educational purposes.
+## License & Usage
 
-## 🙏 Credits
+This quiz app is provided for educational purposes. Feel free to:
+- ✅ Use for personal study
+- ✅ Share with classmates
+- ✅ Use in educational settings
+- ✅ Modify for your needs
+- ✅ Host on your own website
 
-Created with ❤️ for math club students everywhere.
-Built using Claude AI for problem generation and solution explanations.
+## Credits
+
+Created for 7th grade pre-algebra students preparing for Math Club competitions. Problems designed to exceed standard worksheet difficulty to ensure thorough preparation and confidence.
+
+**Problem Categories Cover:**
+- Multi-step algebraic equations with distribution
+- Fraction operations and rational expressions
+- Complex order of operations with nested parentheses
+- Integer arithmetic with negative numbers
+- Absolute value in combined expressions
+- Advanced word problems requiring algebraic reasoning
 
 ---
 
-**Good luck with your math club preparation! 🎉**
+**Good luck with Math Club! 🎯📐**
+
+*No internet connection or Claude Pro subscription needed for quiz usage - everything is pre-loaded!*
